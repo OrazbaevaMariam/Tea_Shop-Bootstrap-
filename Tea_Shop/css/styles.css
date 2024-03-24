@@ -1,0 +1,68 @@
+.carousel-control-prev-icon {
+    background-image: url("../images/left.svg");
+    background-size: initial;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #076BFF;
+    width: 40px;
+    height: 40px;
+    padding: 9px 13px;
+    position: absolute;
+    left: 15px;
+    top: calc(50% - 20px)
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-control-next-icon {
+    background-image: url("../images/right.svg");
+    background-size: initial;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    border: 1px solid #076BFF;
+    width: 40px;
+    height: 40px;
+    padding: 9px 13px;
+    position: absolute;
+    right: 15px;
+    top: calc(50% - 20px)
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.ui-accordion .ui-accordion-header {
+    position: relative;
+}
+
+.ui-icon:active {
+    background-image: url("../images/up.svg");
+    position: absolute;
+    right: 27px;
+}
+
+.ui-icon {
+    background-image: url("../images/down.svg");
+    position: absolute;
+    right: 27px;
+}
+
+.answers {
+    margin: 0 auto;
+}
+
+.form {
+    margin: 0 auto;
+}
+
+.white-popup {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+}
